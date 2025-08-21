@@ -1,0 +1,30 @@
+.courseTreeTitle {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.courseTreeSearch {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.courseTreeSearch__input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.courseTreeSearch__button {
+  padding: 12px 20px;
+}
+
+.courseTreeList {
+  li {
+    text-align: left;
+    list-style-type: none;
+  }
+}

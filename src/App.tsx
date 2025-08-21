@@ -1,10 +1,14 @@
-import { useState } from 'react'
 import './App.css'
+import CourseTreeSearchComponent from './components/CourseTreeSearch'
 
 function App() {
   return (
-    <main>
-    </main>
+    <>
+      <main className="main">
+        <CourseTreeSearchComponent />
+      </main>
+      <footer className="footer">By Felipe F. Laskoski</footer>
+    </>
   )
 }
 
