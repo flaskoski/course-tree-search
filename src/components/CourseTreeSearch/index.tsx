@@ -41,9 +41,10 @@ const CourseTreeSearchComponent = () => {
         < ul className="courseTreeList">
           <CourseTreeNodeComponent courseTree={courseTreeApiData} course={courseTreeApiData[0]} level={0} />
         </ul>
-        : isError ? <p>Error: {error?.message}</p> :
-          isPending ? <p>Loading...</p> :
-            <p>No results found</p>}
+        : isError ? <p>Error: {error?.message}</p>
+          : isPending ? <p>Loading...</p>
+            : courseTreeApiData ? <p>No results found</p>
+              : ""}
     </section >
   )
 }
